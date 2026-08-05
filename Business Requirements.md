@@ -1,6 +1,6 @@
 ## Company Overview
 
-|Company Name	| Baker Digital Solutions (BDS)		|
+|Company Name	| Exact Tech Solutions (ETS)		|
 |Industry	| IT Consulting & Digital Marketing	|
 |Office Size	| 7 Employees				|		
 |Location 	| One office with a single floor	|
