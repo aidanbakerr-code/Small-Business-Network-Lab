@@ -2,7 +2,7 @@
 
 This project simulates the design, deployment, configuration and documentation of a secure small business network using Cisco Packet Tracer. The objective is to demonstrate practical networking, troubleshooting, and documentation skills that reflect the responsibilities of a Junior Network Administrator or IT Support Technician.
 
-The fictional company, **Baker Digital Solutions (BDS)**, is a small IT consulting and digital marketing business with seven employees across multiple departments. The network has been designed to provide secure connectivity, resource sharing, and room for future growth while following networking best practices.
+The fictional company, **Exact Tech Solutions (ETS)**, is a small IT consulting and digital marketing business with seven employees across multiple departments. The network has been designed to provide secure connectivity, resource sharing, and room for future growth while following networking best practices.
 
 ---
 
