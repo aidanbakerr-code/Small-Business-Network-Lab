@@ -1,139 +1,78 @@
-# Small Business Network Home Lab
+# Small Business Cisco Network Lab
 
-This project simulates the design, deployment, configuration and documentation of a secure small business network using Cisco Packet Tracer. The objective is to demonstrate practical networking, troubleshooting, and documentation skills that reflect the responsibilities of a Junior Network Administrator or IT Support Technician.
+![Cisco](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue)
+![Networking](https://img.shields.io/badge/Networking-CCNA%20Level-informational)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-The fictional company, **Exact Tech Solutions (ETS)**, is a small IT consulting and digital marketing business with seven employees across multiple departments. The network has been designed to provide secure connectivity, resource sharing, and room for future growth while following networking best practices.
+A hands-on Cisco Packet Tracer project simulating the design, implementation, security, troubleshooting, and validation of a small-business network.
+
+The project was built to demonstrate practical networking skills relevant to **Junior Network Administrator, Network Technician, and IT Support** roles.
 
 ---
 
-# Project Objectives
+## Project Overview
 
-* Design a secure and scalable network for a small business.
-* Configure Cisco routers and switches using Cisco IOS.
-* Implement VLANs for departmental network segmentation.
-* Configure inter-VLAN routing.
-* Configure DHCP for automatic IP address allocation.
-* Implement secure remote management using SSH.
-* Secure the network using port security and disabled unused ports.
-* Provide access to shared network resources including a file server and printer.
-* Produce professional documentation similar to that used in real IT environments.
+The fictional company, **Exact Tech Solutions (ETS)**, is a small IT consulting and digital marketing business requiring a reliable, segmented, and secure network for its employees and infrastructure.
+
+The network was designed and implemented from the ground up using Cisco Packet Tracer.
+
+The completed implementation includes:
+
+- Departmental VLAN segmentation
+- 802.1Q trunking
+- Router-on-a-Stick
+- Inter-VLAN routing
+- DHCP
+- DNS
+- SSH remote management
+- Management VLAN
+- Port Security
+- Sticky MAC addresses
+- Disabled unused switch ports
+- Guest Wi-Fi isolation
+- Extended ACLs
+- NAT/PAT
+- Simulated ISP/Internet connectivity
+- Network testing and validation
+- Technical documentation
 
 ---
 
 # Business Scenario
 
-Exact Tech Solutions employs seven staff members across the following departments:
+**Exact Tech Solutions (ETS)** is a seven-person small business with employees working across multiple departments.
 
-* Management
-* IT
-* Finance
-* Sales
-* Marketing
-* Customer Support
-* Administration
+### Departments
+
+| Department | VLAN |
+|---|---:|
+| Management | 10 |
+| IT | 20 |
+| Finance | 30 |
+| Sales | 40 |
+| Marketing | 50 |
+| Support | 60 |
+| Administration | 70 |
+| Servers | 80 |
+| Guest Wi-Fi | 90 |
+| Network Management | 99 |
 
 The business requires:
 
-* Reliable internet connectivity
-* Secure departmental communication
-* Shared network storage
-* Shared network printing
-* Secure wireless networking
-* Guest Wi-Fi isolation
-* Network scalability for future growth
+- Reliable Internet connectivity
+- Departmental network segmentation
+- Secure communication between internal networks
+- Centralized DHCP services
+- Internal DNS services
+- Shared network resources
+- Secure device administration
+- Guest Wi-Fi
+- Guest network isolation
+- Protection against unauthorized devices
+- A scalable network design
 
 ---
-
-# Network Infrastructure
-
-### Core Devices
-
-| Device                | Model                           |
-| --------------------- | ------------------------------- |
-| ISP Router            | Cisco ISR 4321                  |
-| Business Router       | Cisco 1941                      |
-| Managed Switch        | Cisco Catalyst 2960-24TT        |
-| Wireless Access Point | Cisco Aironet 1832i             |
-| File Server           | Generic Server (NAS Simulation) |
-| Network Printer       | HP LaserJet Network Printer     |
-
----
----
-
-# Network Features
-
-* Departmental VLANs
-* Inter-VLAN Routing
-* Dynamic IP Address Assignment (DHCP)
-* Static IP Addresses for Infrastructure Devices
-* Secure Device Management (SSH)
-* Port Security
-* Disabled Unused Switch Ports
-* Shared File Server
-* Shared Network Printer
-* Staff Wireless Network
-* Guest Wireless Network
-* Configuration Backups
-
----
-
-# Skills Demonstrated
-
-This project demonstrates practical knowledge in:
-
-* Network planning
-* Network design
-* Cisco router configuration
-* Cisco switch configuration
-* VLAN implementation
-* IP addressing
-* DHCP configuration
-* Network security
-* Troubleshooting methodology
-* Technical documentation
-* Infrastructure management
-* Version control using Git and GitHub
-
----
-
-# Testing and Validation
-
-The completed lab includes verification of:
-
-* End-to-end network connectivity
-* Successful DHCP address assignment
-* Inter-VLAN communication
-* Internet connectivity simulation
-* SSH remote access
-* Printer connectivity
-* File server accessibility
-* VLAN segmentation
-* Network security controls
-
----
-
-# Future Improvements
-
-Potential enhancements include:
-
-* Windows Server Active Directory
-* DNS Server
-* Group Policy
-* Network Monitoring
-* Syslog Server
-* NTP Configuration
-* VPN Connectivity
-* ACL Implementation
-* Redundant Switching
-* Redundant Routing
-* Cloud Integration
-
----
-
-# Purpose
-
-This repository was created as a hands-on networking portfolio project to demonstrate practical Cisco networking skills beyond certification study. It showcases the complete lifecycle of designing, configuring, securing, testing, troubleshooting, and documenting a small business network using industry-standard practices.
-
+This repository was created as a hands-on networking portfolio project to demonstrate practical Cisco networking skills beyond certification study. It showcases the complete lifecycle of designing, configuring, securing, testing, troubleshooting and documenting a small business network using industry-standard practices.
 ---
 
 # Author
