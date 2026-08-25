@@ -1,9 +1,3 @@
-# Employee List
-
-## Company
-
-**Baker Digital Solutions (BDS)**
-
 ## Employees
 
 | Employee        | Job Title             | Department     | Primary Device   |
