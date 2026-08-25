@@ -71,7 +71,6 @@ The business requires:
 - Protection against unauthorized devices
 - A scalable network design
 
-——-
 This repository was created as a hands-on networking portfolio project to demonstrate practical Cisco networking skills beyond certification study. It showcases the complete lifecycle of designing, configuring, securing, testing, troubleshooting and documenting a small business network using industry-standard practices.
 
 # Author
